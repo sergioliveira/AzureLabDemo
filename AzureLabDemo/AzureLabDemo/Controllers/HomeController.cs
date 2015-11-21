@@ -15,6 +15,7 @@ namespace AzureLabDemo.Controllers
 
             var model = requestClient.GetFixtureTable();
 
+            //test
             return View(model);
         }
     }
